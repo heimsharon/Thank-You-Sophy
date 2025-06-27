@@ -1,0 +1,5 @@
+// filepath: f:\BC\Current projects\Thank-You-Sophy\client\.gitignore
+node_modules/
+dist/
+.env
+.DS_Store

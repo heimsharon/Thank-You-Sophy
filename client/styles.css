@@ -1,0 +1,73 @@
+/* Reset & Base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  background: linear-gradient(to bottom right, #fdf2f8, #f0f4f8);
+  color: #333;
+  line-height: 1.6;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  animation: fadeIn 1.2s ease-out;
+}
+
+/* Fade-In Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1.2s ease-out both;
+}
+
+/* Container */
+.container {
+  max-width: 700px;
+  margin: auto;
+  background-color: #ffffffee;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #5a3e85;
+}
+
+/* Paragraphs */
+.container p {
+  margin-bottom: 1.25rem;
+  font-size: 1.1rem;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: auto;
+  padding: 2rem 1rem 1rem;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: #444;
+}
+/* Signature */
+.signature {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.6rem;
+  color: #5a3e85;
+}
